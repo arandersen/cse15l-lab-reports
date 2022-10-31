@@ -51,7 +51,7 @@ government/Env_Prot_Agen
 government/Gen_Account_Office
 government/Media
 government/Post_Rate_Comm
-
 ```
+
 The find -type d command is a command that will search a directory within the subdirectory system. The f command is specific to only search a directory not a file, so it will show a directory name within the subdirectory. This command is very useful  if you want to search only a directory with a specific name of character.
 
