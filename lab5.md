@@ -1,7 +1,7 @@
 # Week 5 Lab Report - Arthur
 ## 3 interesting **find commands**
 
->**find -name**
+**find -name**
 ```
 [cs15lfa22en@ieng6-201]:docsearch:160$ find technical -name "biomed"
 technical/biomed
@@ -14,7 +14,7 @@ The find -name command is a command that will search a file or directory within 
 
 
 ---
->**find -type f**
+**find -type f**
 ```
 [cs15lfa22en@ieng6-201]:technical:165$ find "plos" -type f
 plos/journal.pbio.0020001.txt
@@ -37,7 +37,7 @@ government/About_LSC/LegalServCorp_v_VelazquezSyllabus.txt
 The find -type f command is a command that will search a file within the directory system. The f command is specific to only search a file not a directory, so it will show a file name within the directory. This command is very useful  if you want to search only a file with a specific name of character.
 
 ---
->**find -type d**
+**find -type d**
 ```
 [cs15lfa22en@ieng6-201]:technical:168$ find "plos" -type d
 plos
