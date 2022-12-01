@@ -6,19 +6,19 @@ Task :  TestDocSearch.java, copy the test called testSearchCount, rename the new
 ```
 Vim TestDocSearch.java  //go to the specific file
 /testSearchCount        //search the specific method
-[Enter]
+<Enter>
 K                       //go to previous line
-Shift + V               //highight the line
+<Shift> + V               //highight the line
 J (x5)                  //selected the highlited line down by 5
 Y                       // (yank), copy the file to the clipboard
 J (x6)                  //go below the current method
 P                       //paste the copy method from the clipboard
 /testSearchCount        //search the specific name method
-[Enter]
+<Enter>
 W                       //go to the very end of the word
 I                       // go to insert mode
 2                       // add "2" as a different method
-[Esc]                   //execute from input to visual mode
+<Esc>                   //execute from input to visual mode
 :wq                     //save and quit
 <Enter>                 //execute the :wq command save and quit 
 ```
